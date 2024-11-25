@@ -39,7 +39,7 @@ export default function NavBar() {
     >
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold">
-          dot<span className="text-blue-500">🥒</span>dager
+          dot<span className="text-blue-500">.</span>dager
         </Link>
         <nav className="hidden md:flex gap-6">
           <Button

@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
 
-import drogerImage2 from "../../../public/droger-2.jpg";
+import drogerImage2 from "../../../public/dagerform.png";
 
 export default function AboutSection() {
   const [score, setScore] = useState(0);
@@ -65,15 +65,16 @@ export default function AboutSection() {
           </div>
           <div className="space-y-6">
             <p className="text-lg text-gray-200">
-              Hola, soy un creador de contenido con una mente curiosa, siempre
-              buscando nuevas formas de superar mis límites. Me encanta explorar
-              todo, desde lo más profundo hasta lo más largo, y siempre
-              encuentro emoción en cada desafío que me reta a crecer.
+              Hola, soy un creador de contenido con una mentalidad curiosa y en
+              constante búsqueda de nuevas maneras de superar mis propios
+              límites. Me apasiona explorar una amplia variedad de temas, desde
+              los más complejos hasta los más extensos, encontrando siempre
+              entusiasmo en cada desafío que me impulsa a crecer y evolucionar.
             </p>
             <div className="flex items-center gap-4 pt-4">
               <p className="text-blue-300 text-sm">
-                Dato curioso como vos: soy un gran admirador de Lumberjack.
-                Puntuación actual: {score}
+                Dato curioso: soy un gran admirador de Lumberjack. Puntuación
+                actual: {score}
               </p>
               <motion.div
                 animate={controls}

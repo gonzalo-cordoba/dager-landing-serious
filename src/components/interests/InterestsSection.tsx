@@ -1,5 +1,5 @@
 import * as motion from "framer-motion/client";
-import { BookOpen, Cat, Code, Music, Sandwich } from "lucide-react";
+import { BookOpen, Cat, Code, Music } from "lucide-react";
 
 export default function InterestsSection() {
   const interests = [
@@ -13,25 +13,19 @@ export default function InterestsSection() {
       icon: Cat,
       title: "Gatos",
       description:
-        "Los pequeños peludos son parte esencial de mi vida. Su carácter independiente y su ternura me inspiran todos los días. Y bueno, los gatos tambien me gustan mucho.",
+        "Los gatos ocupan un lugar fundamental en mi vida. Su carácter independiente, combinado con su ternura y elegancia, me inspira a diario. Su presencia aporta tranquilidad y alegría, convirtiéndolos en compañeros únicos e invaluables.",
     },
     {
       icon: Music,
       title: "Guitarra",
       description:
-        "La creatividad fluye cuando encuentro la manera perfecta de sostenerla, ya sea con un toque suave o entregándome por completo al ritmo del momento.",
+        "La creatividad cobra vida cuando encuentro la manera ideal de expresarla a través de la guitarra, ya sea mediante un toque sutil y delicado o entregándome por completo al ritmo y la emoción del momento.",
     },
     {
       icon: BookOpen,
       title: "Filosofía",
       description:
-        "Disfruto meterme en temas profundos y explorar diferentes ángulos. Siempre encuentro fascinante todo lo que tiene múltiples capas por descubrir.",
-    },
-    {
-      icon: Sandwich,
-      title: "Pepinos",
-      description:
-        "Un hobby curioso, pero que me enseña a disfrutar de lo simple. Al final son esas cosas largas e inesperadas las que le dan sabor a la vida.",
+        "Disfruto adentrarme en cuestiones filosóficas profundas y explorar diferentes perspectivas. Siempre encuentro fascinante la riqueza de ideas y significados que surgen al analizar temas con múltiples capas por descubrir.",
     },
   ];
 

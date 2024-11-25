@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 text-center text-gray-300">
         <p>
           &copy; {new Date().getFullYear()} Dot Dager. Todos los derechos
-          reservados🥒
+          reservados
         </p>
       </div>
     </footer>

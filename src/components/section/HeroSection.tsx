@@ -6,10 +6,8 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 
 import drogerImage3 from "../../../public/droger-7-2.jpg";
-import drogerPepi from "../../../public/pep.jpeg";
 
 export default function HeroSection() {
-  const [isHovered, setIsHovered] = useState(false);
   const [displayedText, setDisplayedText] = useState("");
   const fullText = "Mi nombre es Dot Dager ";
 
@@ -78,12 +76,12 @@ export default function HeroSection() {
           <h1 className="text-4xl md:text-6xl font-bold leading-tight">
             Full-stack senior
             <span className="block text-blue-500">
-              y un gran catador de pepinos
+              Y un apasionado por la filosofia
             </span>
           </h1>
           <p className="text-lg text-gray-300">
             Soy un creador de contenido al que le encanta la programación, los
-            gatos, las guitarras, los pepinos y la filosofía.
+            gatos, las guitarras y la filosofía.
           </p>
           <div className="flex gap-4">
             <Button className="bg-blue-500 hover:bg-blue-600 text-white">
@@ -114,12 +112,10 @@ export default function HeroSection() {
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.8 }}
-          onMouseEnter={() => setIsHovered(true)}
-          onMouseLeave={() => setIsHovered(false)}
         >
           <AnimatePresence mode="wait">
             <motion.div
-              key={isHovered ? "pepi" : "profile"}
+              key="profile"
               initial="hidden"
               animate="visible"
               exit="hidden"
@@ -128,8 +124,8 @@ export default function HeroSection() {
               className="absolute inset-0"
             >
               <Image
-                src={isHovered ? drogerPepi : drogerImage3}
-                alt={isHovered ? "Pepi" : "Profile"}
+                src={drogerImage3}
+                alt="Profile"
                 fill
                 className="rounded-full object-cover"
               />
