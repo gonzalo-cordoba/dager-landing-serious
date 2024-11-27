@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 
-import drogerImage3 from "../../../public/droger-7-2.jpg";
+import drogerImage3 from "../../../public/dagerform.png";
 
 export default function HeroSection() {
   const [displayedText, setDisplayedText] = useState("");

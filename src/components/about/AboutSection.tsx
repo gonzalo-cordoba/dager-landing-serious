@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
 
-import drogerImage2 from "../../../public/dagerform.png";
+import drogerImage2 from "../../../public/droger-7-2.jpg";
 
 export default function AboutSection() {
   const [score, setScore] = useState(0);
